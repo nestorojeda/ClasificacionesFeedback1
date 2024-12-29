@@ -1,5 +1,5 @@
 # Use the official Python base image
-FROM jupyter/base-notebook
+FROM jupyter/datascience-notebook:latest
 
 # Set environment variables to prevent interactive prompts and ensure UTF-8 locale
 ENV DEBIAN_FRONTEND=noninteractive \
